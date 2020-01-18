@@ -1,18 +1,18 @@
 import tweepy
 from textblob import TextBlob
 
-consumer_key = 'NXwbRE4Bc5RXRZuXN1gtNb2GZ'
-consumer_secret = '759AhtUJUaDtH99ps4EzFo03VCPDtX5NvxbnopHmGrbv1I6sPj'
+consumer_key = ''
+consumer_secret = ''
 
-access_token = '2734831937-fFDrSP30H8dqu3Dn0LWT3v9erbSjEPnXewR1lUl'
-access_token_secret = 'RXiPod0Mceqyy7K7GYsZYtkPk2Rzu5S68CXd1dgIznYpu'
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-tweets = api.search('China')
+tweets = api.search('Trump')
 
 for tweet in tweets :
     analysis = TextBlob(tweet.text)
