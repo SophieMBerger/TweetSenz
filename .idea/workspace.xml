@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f62bf0-6b14-4a07-a036-556a5bd13f5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TweetSenz" beforeDir="false" afterPath="$PROJECT_DIR$/TweetSenz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +85,7 @@
       <workItem from="1579322076497" duration="76000" />
       <workItem from="1579363549941" duration="289000" />
       <workItem from="1579363856464" duration="132000" />
-      <workItem from="1579402675484" duration="159000" />
+      <workItem from="1579402675484" duration="378000" />
     </task>
     <servers />
   </component>
